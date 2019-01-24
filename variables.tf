@@ -15,3 +15,5 @@ variable "ostype" {
 variable instance_type {
   default = "t2.micro" }
 
+variable "key_file_path" {
+  default = "/home/bejen/.ssh/aws_bejen.pem" }
