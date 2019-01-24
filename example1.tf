@@ -10,5 +10,3 @@ resource "aws_instance" "example1" {
 output "example1" {
   value = "${aws_instance.example1.public_ip}"
 }
-
-
