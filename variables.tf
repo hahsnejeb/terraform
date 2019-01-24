@@ -5,7 +5,8 @@ variable "amis" {
   type = "map"
   default = {
     "amazon" = "ami-0664a710233d7c148"
-    "ubuntu" = "ami-0b0a60c0a2bd40612" }
+    "ubuntu" = "ami-0b0a60c0a2bd40612"
+    "custom" = "ami-09fb0a67c7a88b5b4" }
   }
 
 variable "ostype" {
